@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIỆT PHÁT PRECISION - Năng Lực Gia Công Cơ Khí Chính Xác & Báo Giá B2B</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        steel: {
+                            50: '#f8fafc',
+                            100: '#f1f5f9',
+                            700: '#334155',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                            950: '#090d16'
+                        },
+                        techBlue: {
+                            500: '#0284c7',
+                            600: '#0369a1',
+                            700: '#075985'
+                        },
+                        indusOrange: {
+                            500: '#f97316',
+                            600: '#ea580c',
+                            700: '#c2410c'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+        .bg-grid-pattern {
+            background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        .metallic-gradient {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        }
+        .orange-glow {
+            box-shadow: 0 0 20px rgba(234, 88, 12, 0.35);
+        }
+        .cyan-glow {
+            box-shadow: 0 0 20px rgba(2, 132, 199, 0.3);
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 8px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="custom-scrollbar selection:bg-indusOrange-600 selection:text-white">
+
+    <!-- TOP B2B BAR -->
+    <div class="bg-steel-950 border-b border-steel-800 text-xs py-2 px-4 sm:px-8 text-slate-400 flex flex-wrap justify-between items-center gap-2">
+        <div class="flex items-center space-x-6">
+            <span class="flex items-center"><i class="fa-solid fa-certificate text-indusOrange-500 mr-2"></i> Đạt chuẩn chất lượng ISO 9001:2015 & ISO 14001</span>
+            <span class="hidden md:inline-flex items-center"><i class="fa-solid fa-microchip text-techBlue-500 mr-2"></i> Dung sai gia công đến ±0.005 mm</span>
+        </div>
+        <div class="flex items-center space-x-6">
+            <a href="tel:0988123456" class="hover:text-indusOrange-500 transition"><i class="fa-solid fa-phone text-indusOrange-500 mr-1.5"></i> Hotline B2B: (028) 3888 9999</a>
+            <span class="hidden sm:inline">|</span>
+            <a href="mailto:rfq@vietphatprecision.com" class="hidden sm:inline hover:text-techBlue-500 transition"><i class="fa-solid fa-envelope mr-1.5"></i> rfq@vietphatprecision.com</a>
+        </div>
+    </div>
+
+    <!-- MAIN NAVBAR -->
+    <nav class="sticky top-0 z-40 bg-steel-900/90 backdrop-blur-md border-b border-steel-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- LOGO -->
+            <a href="#" class="flex items-center space-x-3 group">
+                <div class="w-11 h-11 bg-gradient-to-tr from-indusOrange-600 to-techBlue-600 rounded-lg flex items-center justify-center text-white text-xl font-extrabold shadow-lg group-hover:scale-105 transition transform">
+                    <i class="fa-solid fa-gear fa-spin-pulse" style="--fa-animation-duration: 12s;"></i>
+                </div>
+                <div>
+                    <div class="text-xl font-black tracking-wider text-white">VIỆT PHÁT <span class="text-indusOrange-500">PRECISION</span></div>
+                    <div class="text-[10px] text-slate-400 font-medium tracking-widest uppercase">Cơ khí chính xác & Chế tạo máy</div>
+                </div>
+            </a>
+
+            <!-- NAV LINKS -->
+            <div class="hidden lg:flex items-center space-x-8 text-sm font-semibold text-slate-300">
+                <a href="#about" class="hover:text-indusOrange-500 transition">Quy Mô Xưởng</a>
+                <a href="#machinery" class="hover:text-indusOrange-500 transition">Trang Thiết Bị</a>
+                <a href="#services" class="hover:text-indusOrange-500 transition">Năng Lực Gia Công</a>
+                <a href="#iso" class="hover:text-indusOrange-500 transition">Chuẩn ISO</a>
+                <a href="#workflow" class="hover:text-indusOrange-500 transition">Quy Trình</a>
+                <a href="#rfq" class="text-indusOrange-500 hover:text-indusOrange-600 transition flex items-center"><i class="fa-solid fa-file-contract mr-1.5"></i> Gửi Bản Vẽ RFQ</a>
+            </div>
+
+            <!-- ACTION CTA BUTTONS -->
+            <div class="flex items-center space-x-3">
+                <a href="#rfq" class="hidden sm:inline-flex items-center px-4 py-2.5 rounded-lg bg-gradient-to-r from-indusOrange-600 to-indusOrange-500 text-white font-bold text-sm shadow-md hover:brightness-110 transition transform active:scale-95">
+                    <i class="fa-solid fa-paper-plane mr-2"></i> Nhận Báo Giá Gấp
+                </a>
+                <button id="mobileMenuBtn" class="lg:hidden text-slate-300 text-2xl focus:outline-none p-2">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- MOBILE MENU POPUP -->
+        <div id="mobileMenu" class="hidden lg:hidden bg-steel-950 border-b border-steel-800 px-4 py-6 space-y-4">
+            <a href="#about" class="block text-slate-300 font-medium hover:text-indusOrange-500">Quy Mô Xưởng</a>
+            <a href="#machinery" class="block text-slate-300 font-medium hover:text-indusOrange-500">Trang Thiết Bị Máy Móc</a>
+            <a href="#services" class="block text-slate-300 font-medium hover:text-indusOrange-500">Năng Lực Gia Công</a>
+            <a href="#iso" class="block text-slate-300 font-medium hover:text-indusOrange-500">Quản Lý Chất Lượng ISO</a>
+            <a href="#workflow" class="block text-slate-300 font-medium hover:text-indusOrange-500">Quy Trình Nhận Đơn</a>
+            <a href="#rfq" class="block text-indusOrange-500 font-bold hover:underline">Gửi Bản Vẽ Báo Giá (RFQ)</a>
+            <div class="pt-2 border-t border-steel-800 flex flex-col gap-2">
+                <a href="tel:0988123456" class="w-full text-center py-2.5 bg-steel-800 rounded-lg text-white font-semibold text-sm">
+                    <i class="fa-solid fa-phone text-indusOrange-500 mr-2"></i> Gọi Hotline Kinh Doanh
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="relative bg-grid-pattern overflow-hidden pt-12 pb-20 lg:pt-20 lg:pb-28 border-b border-steel-800">
+        <!-- Background Lighting FX -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-techBlue-600/15 blur-[120px] rounded-full pointer-events-none"></div>
+        <div class="absolute bottom-10 right-10 w-[400px] h-[300px] bg-indusOrange-600/10 blur-[100px] rounded-full pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <!-- HERO TEXT -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center space-x-2 bg-steel-800/80 border border-steel-700 px-3.5 py-1.5 rounded-full text-xs font-semibold text-techBlue-500">
+                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                        <span>ĐỐI TÁC GIA CÔNG CƠ KHÍ TRUSTED B2B / FDI</span>
+                    </div>
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white leading-tight">
+                        GIA CÔNG CƠ KHÍ <span class="text-transparent bg-clip-text bg-gradient-to-r from-indusOrange-500 to-amber-400">CHÍNH XÁC CAO</span> & CẮT LASER CNC
+                    </h1>
+                    <p class="text-slate-300 text-base sm:text-lg font-normal leading-relaxed max-w-2xl">
+                        Chuyên gia công kim loại tấm, phay/tiện CNC, đồ gá JIG và cụm chế tạo máy công nghiệp. Đáp ứng đơn hàng số lượng lớn, dung sai chuẩn xác <strong class="text-white">±0.005mm</strong> cho các tập đoàn Nhật Bản, Hàn Quốc & Châu Âu.
+                    </p>
+
+                    <!-- QUICK ADVANTAGES LIST -->
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2 text-xs font-medium text-slate-300">
+                        <div class="flex items-center space-x-2 bg-steel-800/50 p-2.5 rounded-lg border border-steel-700/60">
+                            <i class="fa-solid fa-bolt text-indusOrange-500 text-sm"></i>
+                            <span>Báo giá trong 2-4 Giờ</span>
+                        </div>
+                        <div class="flex items-center space-x-2 bg-steel-800/50 p-2.5 rounded-lg border border-steel-700/60">
+                            <i class="fa-solid fa-shield-halved text-techBlue-500 text-sm"></i>
+                            <span>Cam kết NDA Bản Vẽ</span>
+                        </div>
+                        <div class="flex items-center space-x-2 bg-steel-800/50 p-2.5 rounded-lg border border-steel-700/60 col-span-2 sm:col-span-1">
+                            <i class="fa-solid fa-microscope text-emerald-400 text-sm"></i>
+                            <span>Kiểm định CMM 100%</span>
+                        </div>
+                    </div>
+
+                    <!-- HERO BUTTONS -->
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                        <a href="#rfq" class="px-8 py-4 rounded-xl bg-gradient-to-r from-indusOrange-600 to-indusOrange-500 hover:from-indusOrange-500 hover:to-indusOrange-600 text-white font-bold text-base shadow-lg orange-glow transition transform hover:-translate-y-0.5 text-center flex items-center justify-center">
+                            <i class="fa-solid fa-cloud-arrow-up mr-2.5 text-lg"></i> Gửi Bản Vẽ Nhận Báo Giá (RFQ)
+                        </a>
+                        <button onclick="downloadProfileModal()" class="px-7 py-4 rounded-xl bg-steel-800 hover:bg-steel-700 border border-steel-700 text-slate-200 font-bold text-base transition text-center flex items-center justify-center">
+                            <i class="fa-solid fa-file-pdf mr-2 text-red-400"></i> Tải Profile Năng Lực (PDF)
+                        </button>
+                    </div>
+
+                    <!-- KEY METRICS BANNER -->
+                    <div class="grid grid-cols-4 gap-4 pt-8 border-t border-steel-800/80">
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-extrabold text-white">12,000<span class="text-indusOrange-500 text-xl">m²</span></div>
+                            <div class="text-[11px] text-slate-400 font-medium uppercase mt-0.5">Diện Tích Xưởng</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-extrabold text-white">45<span class="text-techBlue-500 text-xl">+</span></div>
+                            <div class="text-[11px] text-slate-400 font-medium uppercase mt-0.5">Máy CNC & Laser</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-extrabold text-white">ISO</div>
+                            <div class="text-[11px] text-slate-400 font-medium uppercase mt-0.5">9001 : 2015</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-extrabold text-white">99.4<span class="text-emerald-400 text-xl">%</span></div>
+                            <div class="text-[11px] text-slate-400 font-medium uppercase mt-0.5">Đúng Tiến Độ</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HERO IMAGE / CAD PREVIEW CARD -->
+                <div class="lg:col-span-5 relative">
+                    <div class="relative mx-auto max-w-md lg:max-w-none rounded-2xl bg-steel-800/90 border border-steel-700 p-3 shadow-2xl backdrop-blur">
+                        <div class="relative rounded-xl overflow-hidden aspect-[4/3] bg-slate-950 flex items-center justify-center group">
+                            <!-- Image fallback simulation -->
+                            <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80" 
+                                 alt="Xưởng gia công cơ khí chính xác CNC" 
+                                 class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition duration-700">
+                            
+                            <div class="absolute inset-0 bg-gradient-to-t from-steel-950 via-steel-950/20 to-transparent"></div>
+                            
+                            <!-- Overlay Badge -->
+                            <div class="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-steel-900/90 border border-steel-700 backdrop-blur-md">
+                                <div class="flex items-center justify-between text-xs mb-1">
+                                    <span class="text-slate-400 font-medium">Hệ Thống Trung Tâm Phay 5 Trục</span>
+                                    <span class="text-emerald-400 font-bold"><i class="fa-solid fa-circle text-[8px] mr-1"></i> Hoạt động 24/7</span>
+                                </div>
+                                <div class="text-sm font-bold text-white">Mori Seiki & Mazak Japan Spec</div>
+                            </div>
+
+                            <!-- Floating Precision Tag -->
+                            <div class="absolute top-4 right-4 px-3 py-1.5 rounded-lg bg-indusOrange-600/90 text-white font-mono text-xs font-bold border border-indusOrange-400 backdrop-blur">
+                                Tolerances: ±0.005mm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 1: QUY MÔ XƯỞNG & NĂNG LỰC SẢN XUẤT -->
+    <section id="about" class="py-20 bg-steel-950 relative border-b border-steel-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold text-indusOrange-500 uppercase tracking-widest mb-2">QUY MÔ NHÀ XƯỞNG & ĐỘI NGUĨ</h2>
+                <p class="text-3xl sm:text-4xl font-extrabold text-white">Năng Lực Sản Xuất Đạt Chuẩn Xuất Khẩu</p>
+                <div class="w-16 h-1 bg-indusOrange-500 mx-auto mt-4 rounded-full"></div>
+                <p class="mt-4 text-slate-400 text-sm sm:text-base">
+                    Hệ thống 2 nhà xưởng tại Khu Công Nghiệp công nghệ cao với tổng diện tích hơn 12,000m², trang bị đầy đủ máy móc hiện đại nhập khẩu từ Nhật Bản và Đức.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-steel-900 rounded-2xl p-7 border border-steel-800 hover:border-steel-700 transition group hover:-translate-y-1">
+                    <div class="w-14 h-14 rounded-xl bg-techBlue-600/10 text-techBlue-500 border border-techBlue-500/30 flex items-center justify-center text-2xl mb-6 group-hover:bg-techBlue-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-industry"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Xưởng Kim Loại Tấm (Sheet Metal)</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Chuyên cắt Laser Fiber 12kW, chấn CNC Amada 220 tấn, đột dập CNC tự động. Xử lý thép carbon tới 25mm, inox tới 20mm, nhôm tới 16mm.
+                    </p>
+                    <ul class="space-y-2 text-xs text-slate-300 font-medium border-t border-steel-800 pt-4">
+                        <li class="flex items-center"><i class="fa-solid fa-check text-emerald-400 mr-2"></i> Bàn cắt khổ lớn: 2000 x 6000 mm</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-emerald-400 mr-2"></i> Máy chấn CNC 7 trục độ chính xác cao</li>
+                    </ul>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-steel-900 rounded-2xl p-7 border border-steel-800 hover:border-steel-700 transition group hover:-translate-y-1">
+                    <div class="w-14 h-14 rounded-xl bg-indusOrange-600/10 text-indusOrange-500 border border-indusOrange-500/30 flex items-center justify-center text-2xl mb-6 group-hover:bg-indusOrange-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Xưởng Phay & Tiện CNC (Machining)</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Sở hữu hơn 25 trung tâm gia công Phay 3-5 trục và Tiện CNC có trục Y. Chuyên gia công linh kiện phay phức tạp, vỏ hộp, đồ gá JIG.
+                    </p>
+                    <ul class="space-y-2 text-xs text-slate-300 font-medium border-t border-steel-800 pt-4">
+                        <li class="flex items-center"><i class="fa-solid fa-check text-emerald-400 mr-2"></i> Tốc độ trục chính lên tới 15,000 RPM</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-emerald-400 mr-2"></i> Gia công hợp kim nhôm, titan, PEEK, SKD11</li>
+                    </ul>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-steel-900 rounded-2xl p-7 border border-steel-800 hover:border-steel-700 transition group hover:-translate-y-1">
+                    <div class="w-14 h-14 rounded-xl bg-purple-500/10 text-purple-400 border border-purple-500/30 flex items-center justify-center text-2xl mb-6 group-hover:bg-purple-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-vial-circle-check"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Xưởng Hàn & Hoàn Thiện Bề Mặt</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Trang bị Robot hàn TIG/MIG tự động, dây chuyền Sơn Tĩnh Điện tự động, Anode nhôm màu và Xi mạ công nghiệp tiêu chuẩn RoHS.
+                    </p>
+                    <ul class="space-y-2 text-xs text-slate-300 font-medium border-t border-steel-800 pt-4">
+                        <li class="flex items-center"><i class="fa-solid fa-check text-emerald-400 mr-2"></i> Thợ hàn đạt chứng chỉ AWS/CWI</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-emerald-400 mr-2"></i> Thử nghiệm phun muối đạt 500+ giờ</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: DANH MỤC TRANG THIẾT BỊ MÁY MÓC -->
+    <section id="machinery" class="py-20 bg-steel-900 relative border-b border-steel-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <h2 class="text-xs font-bold text-techBlue-500 uppercase tracking-widest mb-2">CÔNG NGHỆ HIỆN ĐẠI</h2>
+                    <h3 class="text-3xl font-extrabold text-white">Hệ Thống Máy Móc Trang Bị</h3>
+                </div>
+
+                <!-- Machinery Category Filter Tabs -->
+                <div class="mt-6 md:mt-0 flex flex-wrap gap-2 text-xs font-semibold">
+                    <button onclick="filterMachinery('all')" class="machinery-tab px-4 py-2 rounded-lg bg-indusOrange-600 text-white shadow" data-tab="all">Tất Cả Máy</button>
+                    <button onclick="filterMachinery('laser')" class="machinery-tab px-4 py-2 rounded-lg bg-steel-800 text-slate-300 hover:bg-steel-700" data-tab="laser">Cắt Laser & Chấn CNC</button>
+                    <button onclick="filterMachinery('cnc')" class="machinery-tab px-4 py-2 rounded-lg bg-steel-800 text-slate-300 hover:bg-steel-700" data-tab="cnc">Phay & Tiện CNC</button>
+                    <button onclick="filterMachinery('qc')" class="machinery-tab px-4 py-2 rounded-lg bg-steel-800 text-slate-300 hover:bg-steel-700" data-tab="qc">Đo Lường QC (CMM)</button>
+                </div>
+            </div>
+
+            <!-- Machinery Cards Grid -->
+            <div id="machineryGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- Machine 1 -->
+                <div class="machine-item laser bg-steel-950 rounded-xl border border-steel-800 overflow-hidden hover:border-slate-600 transition">
+                    <div class="h-48 bg-slate-900 relative">
+                        <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=600&q=80" alt="Máy cắt Laser Fiber TRUMPF" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-indusOrange-600 text-white text-[10px] uppercase tracking-wider font-bold px-2.5 py-1 rounded">Cắt Laser</span>
+                    </div>
+                    <div class="p-5">
+                        <h4 class="text-lg font-bold text-white mb-1">Máy Cắt Laser Fiber TRUMPF TruLaser 3030</h4>
+                        <p class="text-xs text-slate-400 mb-4">Xuất xứ: Đức | Số lượng: 03 Máy</p>
+                        <div class="space-y-1.5 text-xs text-slate-300">
+                            <div class="flex justify-between border-b border-steel-800/80 pb-1">
+                                <span class="text-slate-400">Công suất Laser:</span>
+                                <span class="font-semibold">12kW Fiber</span>
+                            </div>
+                            <div class="flex justify-between border-b border-steel-800/80 pb-1">
+                                <span class="text-slate-400">Kích thước bàn cắt:</span>
+                                <span class="font-semibold">1500 x 3000 mm</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Độ dày cắt tối đa:</span>
+                                <span class="font-semibold">Thép 25mm / Inox 20mm</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Machine 2 -->
+                <div class="machine-item laser bg-steel-950 rounded-xl border border-steel-800 overflow-hidden hover:border-slate-600 transition">
+                    <div class="h-48 bg-slate-900 relative">
+                        <img src="https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=600&q=80" alt="Máy Chấn CNC AMADA HG2204" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-indusOrange-600 text-white text-[10px] uppercase tracking-wider font-bold px-2.5 py-1 rounded">Chấn CNC</span>
+                    </div>
+                    <div class="p-5">
+                        <h4 class="text-lg font-bold text-white mb-1">Máy Chấn CNC AMADA HG 2204</h4>
+                        <p class="text-xs text-slate-400 mb-4">Xuất xứ: Nhật Bản | Số lượng: 05 Máy</p>
+                        <div class="space-y-1.5 text-xs text-slate-300">
+                            <div class="flex justify-between border-b border-steel-800/80 pb-1">
+                                <span class="text-slate-400">Lực chấn:</span>
+                                <span class="font-semibold">220 Tấn</span>
+                            </div>
+                            <div class="flex justify-between border-b border-steel-800/80 pb-1">
+                                <span class="text-slate-400">Chiều dài chấn max:</span>
+                                <span class="font-semibold">4000 mm</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Hệ thống điều khiển:</span>
+                                <span class="font-semibold">AMNC 3i (7 Trục)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Machine 3 -->
+                <div class="machine-item cnc bg-steel-950 rounded-xl border border-steel-800 overflow-hidden hover:border-slate-600 transition">
+                    <div class="h-48 bg-slate-900 relative">
+                        <img src="https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=600&q=80" alt="Trung tâm Phay 5 Trục Mazak" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-techBlue-600 text-white text-[10px] uppercase tracking-wider font-bold px-2.5 py-1 rounded">Phay CNC</span>
+                    </div>
+                    <div class="p-5">
+                        <h4 class="text-lg font-bold text-white mb-1">Trung Tâm Phay CNC 5 Trục MAZAK Variaxis i-700</h4>
+                        <p class="text-xs text-slate-400 mb-4">Xuất xứ: Nhật Bản | Số lượng: 04 Máy</p>
+                        <div class="space-y-1.5 text-xs text-slate-300">
+                            <div class="flex justify-between border-b border-steel-800/80 pb-1">
+                                <span class="text-slate-400">Hành trình X/Y/Z:</span>
+                                <span class="font-semibold">630 x 1100 x 600 mm</span>
+                            </div>
+                            <div class="flex justify-between border-b border-steel-800/80 pb-1">
+                                <span class="text-slate-400">Tốc độ quay:</span>
+                                <span class="font-semibold">18,000 RPM</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Dung sai định vị:</span>
+                                <span class="font-semibold">±0.003 mm</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Machine 4 -->
+                <div class="machine-item cnc bg-steel-950 rounded-xl border border-steel-800 overflow-hidden hover:border-slate-600 transition">
+                    <div class="h-48 bg-slate-900 relative">
+                        <img src="https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?auto=format&fit=crop&w=600&q=80" alt="Máy Tiện CNC Doosan" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-techBlue-600 text-white text-[10px] uppercase tracking-wider font-bold px-2.5 py-1 rounded">Tiện CNC</span>
+                    </div>
+                    <div class="p-5">
+                        <h4 class="text-lg font-bold text-white mb-1">Máy Tiện CNC Trục Y DOOSAN Puma 2600SY</h4>
+                        <p class="text-xs text-slate-400 mb-4">Xuất xứ: Hàn Quốc | Số lượng: 08 Máy</p>
+                        <div class="space-y-1.5 text-xs text-slate-300">
+                            <div class="flex justify-between border-b border-steel-800/80 pb-1">
+                                <span class="text-slate-400">Đường kính tiện max:</span>
+                                <span class="font-semibold">Ø376 mm</span>
+                            </div>
+                            <div class="flex justify-between border-b border-steel-800/80 pb-1">
+                                <span class="text-slate-400">Chiều dài tiện max:</span>
+                                <span class="font-semibold">760 mm</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Trục phụ Sub-Spindle:</span>
+                                <span class="font-semibold">Có (Phay mặt bên)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Machine 5 -->
+                <div class="machine-item qc bg-steel-950 rounded-xl border border-steel-800 overflow-hidden hover:border-slate-600 transition">
+                    <div class="h-48 bg-slate-900 relative">
+                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80" alt="Máy đo CMM Zeiss" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-purple-600 text-white text-[10px] uppercase tracking-wider font-bold px-2.5 py-1 rounded">Đo CMM 3D</span>
+                    </div>
+                    <div class="p-5">
+                        <h4 class="text-lg font-bold text-white mb-1">Máy Đo Tọa Độ 3D CMM ZEISS Spectrum</h4>
+                        <p class="text-xs text-slate-400 mb-4">Xuất xứ: Đức | Phòng Lab chuẩn ISO 17025</p>
+                        <div class="space-y-1.5 text-xs text-slate-300">
+                            <div class="flex justify-between border-b border-steel-800/80 pb-1">
+                                <span class="text-slate-400">Dải đo X/Y/Z:</span>
+                                <span class="font-semibold">700 x 1000 x 600 mm</span>
+                            </div>
+                            <div class="flex justify-between border-b border-steel-800/80 pb-1">
+                                <span class="text-slate-400">Độ chính xác đo:</span>
+                                <span class="font-semibold">1.9 + L/250 µm</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Đầu đo quét:</span>
+                                <span class="font-semibold">ZEISS VAST XXT Probe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Machine 6 -->
+                <div class="machine-item qc bg-steel-950 rounded-xl border border-steel-800 overflow-hidden hover:border-slate-600 transition">
+                    <div class="h-48 bg-slate-900 relative">
+                        <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=600&q=80" alt="Máy đo quang học Mitutoyo" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-purple-600 text-white text-[10px] uppercase tracking-wider font-bold px-2.5 py-1 rounded">Kiểm Đo 2D</span>
+                    </div>
+                    <div class="p-5">
+                        <h4 class="text-lg font-bold text-white mb-1">Máy Máy Đo Quang Học 2D Keyence / Mitutoyo</h4>
+                        <p class="text-xs text-slate-400 mb-4">Xuất xứ: Nhật Bản | Số lượng: 03 Hệ thống</p>
+                        <div class="space-y-1.5 text-xs text-slate-300">
+                            <div class="flex justify-between border-b border-steel-800/80 pb-1">
+                                <span class="text-slate-400">Thời gian đo:</span>
+                                <span class="font-semibold">Đo 100 vị trí trong 3 giây</span>
+                            </div>
+                            <div class="flex justify-between border-b border-steel-800/80 pb-1">
+                                <span class="text-slate-400">Độ phân giải:</span>
+                                <span class="font-semibold">0.1 µm</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Xuất báo cáo QC:</span>
+                                <span class="font-semibold">Tự động CPK / PPK</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: TIÊU CHUẨN QUẢN LÝ CHẤT LƯỢNG ISO -->
+    <section id="iso" class="py-20 bg-steel-950 relative border-b border-steel-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="inline-flex items-center space-x-2 bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-xs font-bold text-emerald-400">
+                        <i class="fa-solid fa-award"></i>
+                        <span>CAM KẾT CHẤT LƯỢNG KHÔNG LỖI (ZERO DEFECT)</span>
+                    </div>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Hệ Thống Quản Lý Chất Lượng Tiêu Chuẩn Quốc Tế ISO</h2>
+                    <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                        Mọi sản phẩm trước khi xuất xưởng đều trải qua quy trình kiểm tra nghiêm ngặt 3 cấp độ (IQC - PQC - FQC). Phòng kiểm định của chúng tôi được duy trì môi trường nhiệt độ chuẩn 20°C ± 1°C.
+                    </p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                        <div class="p-4 rounded-xl bg-steel-900 border border-steel-800">
+                            <div class="text-indusOrange-500 text-2xl mb-2"><i class="fa-solid fa-certificate"></i></div>
+                            <div class="text-white font-bold text-base">ISO 9001:2015</div>
+                            <div class="text-xs text-slate-400 mt-1">Hệ thống quản lý chất lượng chứng nhận bởi SGS Switzerland.</div>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-steel-900 border border-steel-800">
+                            <div class="text-emerald-400 text-2xl mb-2"><i class="fa-solid fa-leaf"></i></div>
+                            <div class="text-white font-bold text-base">ISO 14001:2015</div>
+                            <div class="text-xs text-slate-400 mt-1">Quản lý môi trường & cam kết phát triển bền vững trong sản xuất.</div>
+                        </div>
+                    </div>
+
+                    <!-- Quality steps -->
+                    <div class="space-y-3 pt-4">
+                        <div class="flex items-start space-x-3">
+                            <div class="w-6 h-6 rounded-full bg-techBlue-600/20 text-techBlue-400 flex items-center justify-center text-xs font-bold mt-0.5">1</div>
+                            <div>
+                                <h4 class="text-sm font-bold text-white">IQC (Input Quality Control)</h4>
+                                <p class="text-xs text-slate-400">Kiểm tra 100% phôi kim loại, vật liệu đầu vào (CO/CQ đầy đủ từ nhà cung cấp).</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-3">
+                            <div class="w-6 h-6 rounded-full bg-techBlue-600/20 text-techBlue-400 flex items-center justify-center text-xs font-bold mt-0.5">2</div>
+                            <div>
+                                <h4 class="text-sm font-bold text-white">PQC (Process Quality Control)</h4>
+                                <p class="text-xs text-slate-400">Kiểm tra sản phẩm đầu tiên (First Article Inspection) và kiểm tra định kỳ trong quá trình gia công.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-3">
+                            <div class="w-6 h-6 rounded-full bg-techBlue-600/20 text-techBlue-400 flex items-center justify-center text-xs font-bold mt-0.5">3</div>
+                            <div>
+                                <h4 class="text-sm font-bold text-white">FQC & OQC (Final & Outgoing Quality Control)</h4>
+                                <p class="text-xs text-slate-400">Kiểm tra kích thước bằng máy CMM, độ nhám bề mặt, độ dày lớp mạ và cấp chứng thư đo lường đi kèm đơn hàng.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side: Certificate Showcase Frame -->
+                <div class="lg:col-span-6 flex justify-center">
+                    <div class="relative w-full max-w-md bg-steel-900 border border-steel-700 rounded-2xl p-6 shadow-2xl">
+                        <div class="text-center border-b border-steel-800 pb-4 mb-6">
+                            <i class="fa-solid fa-file-shield text-4xl text-indusOrange-500 mb-2"></i>
+                            <h3 class="text-lg font-bold text-white">CHỨNG CHỈ ISO & BÁO CÁO CMM</h3>
+                            <p class="text-xs text-slate-400">Audit hàng năm bởi SGS & TÜV SÜD</p>
+                        </div>
+
+                        <!-- Certificate Mock Preview -->
+                        <div class="space-y-4">
+                            <div class="p-3 bg-steel-950 rounded-lg border border-steel-800 flex items-center justify-between">
+                                <div class="flex items-center space-x-3">
+                                    <i class="fa-solid fa-file-pdf text-red-500 text-xl"></i>
+                                    <div>
+                                        <div class="text-xs font-bold text-white">Chung_Nhan_ISO_9001_2015.pdf</div>
+                                        <div class="text-[10px] text-slate-400">Dung lượng: 2.4 MB • Hiệu lực: 2024-2027</div>
+                                    </div>
+                                </div>
+                                <button onclick="downloadProfileModal()" class="text-xs text-techBlue-400 hover:text-techBlue-300 font-semibold px-2.5 py-1 border border-techBlue-500/30 rounded">Tải về</button>
+                            </div>
+
+                            <div class="p-3 bg-steel-950 rounded-lg border border-steel-800 flex items-center justify-between">
+                                <div class="flex items-center space-x-3">
+                                    <i class="fa-solid fa-file-csv text-emerald-500 text-xl"></i>
+                                    <div>
+                                        <div class="text-xs font-bold text-white">Mau_Bao_Cao_Do_CMM_Zeiss.pdf</div>
+                                        <div class="text-[10px] text-slate-400">Dung lượng: 1.8 MB • Mẫu kiểm định thực tế</div>
+                                    </div>
+                                </div>
+                                <button onclick="downloadProfileModal()" class="text-xs text-techBlue-400 hover:text-techBlue-300 font-semibold px-2.5 py-1 border border-techBlue-500/30 rounded">Xem mẫu</button>
+                            </div>
+                        </div>
+
+                        <!-- Quality Guarantee Badge -->
+                        <div class="mt-6 p-4 rounded-xl bg-gradient-to-r from-indusOrange-600/20 to-techBlue-600/20 border border-indusOrange-500/30 text-center">
+                            <div class="text-xs text-slate-200 font-semibold">
+                                <i class="fa-solid fa-rotate-left text-indusOrange-500 mr-1.5"></i> Cam kết 1 đổi 1 hoặc hoàn tiền 100% nếu sản phẩm sai dung sai thiết kế.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: NĂNG LỰC SẢN XUẤT & GIA CÔNG THEO YÊU CẦU -->
+    <section id="services" class="py-20 bg-steel-900 border-b border-steel-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold text-indusOrange-500 uppercase tracking-widest mb-2">DỊCH VỤ CƠ KHÍ CHÍNH XÁC</h2>
+                <h3 class="text-3xl sm:text-4xl font-extrabold text-white">Năng Lực Gia Công Đa Dạng</h3>
+                <div class="w-16 h-1 bg-indusOrange-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Service 1 -->
+                <div class="bg-steel-950 rounded-xl p-6 border border-steel-800 hover:border-indusOrange-500/50 transition">
+                    <div class="w-12 h-12 rounded-lg bg-indusOrange-600/10 text-indusOrange-500 flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-scissors"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-2">Gia Công Kim Loại Tấm</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed mb-4">
+                        Cắt Laser Fiber, chấn CNC, đột dập, chèn cuộn ốc bo chấn, hàn khung vỏ tủ điện, vỏ máy soi chiếu.
+                    </p>
+                    <span class="text-[11px] font-semibold text-indusOrange-500">Độ dày: 0.5mm – 25mm</span>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-steel-950 rounded-xl p-6 border border-steel-800 hover:border-techBlue-500/50 transition">
+                    <div class="w-12 h-12 rounded-lg bg-techBlue-600/10 text-techBlue-500 flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-cube"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-2">Phay & Tiện CNC Hàng Loạt</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed mb-4">
+                        Gia công chi tiết máy có độ phức tạp cao, trục bánh răng, thân van, vỏ nhôm tản nhiệt, linh kiện tự động hóa.
+                    </p>
+                    <span class="text-[11px] font-semibold text-techBlue-400">Dung sai: ±0.005 mm</span>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-steel-950 rounded-xl p-6 border border-steel-800 hover:border-purple-500/50 transition">
+                    <div class="w-12 h-12 rounded-lg bg-purple-600/10 text-purple-400 flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-2">Thiết Kế & Chế Tạo JIG</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed mb-4">
+                        Thiết kế đồ gá gia công, đồ gá kiểm tra (Check JIG), đồ gá lắp ráp cho dây chuyền sản xuất linh kiện điện tử.
+                    </p>
+                    <span class="text-[11px] font-semibold text-purple-400">Chuẩn hóa 3D CAD/CAM</span>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="bg-steel-950 rounded-xl p-6 border border-steel-800 hover:border-emerald-500/50 transition">
+                    <div class="w-12 h-12 rounded-lg bg-emerald-600/10 text-emerald-400 flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-spray-can"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-2">Xử Lý Bề Mặt Kim Loại</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed mb-4">
+                        Sơn tĩnh điện, Anode hóa nhôm cứng (Hard Anodizing), Xi mạ niken, mạ kẽm, đánh bóng gương stainless steel.
+                    </p>
+                    <span class="text-[11px] font-semibold text-emerald-400">Tiêu chuẩn RoHS Compliant</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: QUY TRÌNH NHẬN ĐƠN VÀ SẢN XUẤT B2B -->
+    <section id="workflow" class="py-20 bg-steel-950 border-b border-steel-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold text-techBlue-500 uppercase tracking-widest mb-2">QUY TRÌNH CHUYÊN NGHIỆP</h2>
+                <h3 class="text-3xl sm:text-4xl font-extrabold text-white">5 Bước Hợp Tác Báo Giá & Sản Xuất</h3>
+                <div class="w-16 h-1 bg-techBlue-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-4 relative">
+                <!-- Step 1 -->
+                <div class="bg-steel-900 rounded-xl p-5 border border-steel-800 text-center relative">
+                    <div class="w-10 h-10 rounded-full bg-indusOrange-600 text-white font-extrabold text-sm flex items-center justify-center mx-auto mb-3 shadow">1</div>
+                    <h4 class="text-sm font-bold text-white mb-1">Gửi Bản Vẽ & Yêu Cầu</h4>
+                    <p class="text-[11px] text-slate-400">Khách hàng tải lên file CAD/STEP/DWG kèm yêu cầu vật liệu & số lượng.</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="bg-steel-900 rounded-xl p-5 border border-steel-800 text-center relative">
+                    <div class="w-10 h-10 rounded-full bg-steel-800 text-indusOrange-500 font-extrabold text-sm flex items-center justify-center mx-auto mb-3 border border-steel-700">2</div>
+                    <h4 class="text-sm font-bold text-white mb-1">Phân Tích DFM & Báo Giá</h4>
+                    <p class="text-[11px] text-slate-400">Kỹ sư tối ưu công nghệ sản xuất (DFM) và phản hồi báo giá trong 2-4h.</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="bg-steel-900 rounded-xl p-5 border border-steel-800 text-center relative">
+                    <div class="w-10 h-10 rounded-full bg-steel-800 text-indusOrange-500 font-extrabold text-sm flex items-center justify-center mx-auto mb-3 border border-steel-700">3</div>
+                    <h4 class="text-sm font-bold text-white mb-1">Chế Tạo Mẫu (Prototype)</h4>
+                    <p class="text-[11px] text-slate-400">Gia công mẫu thử nghiệm, gửi báo cáo kích thước CMM cho khách hàng duyệt.</p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="bg-steel-900 rounded-xl p-5 border border-steel-800 text-center relative">
+                    <div class="w-10 h-10 rounded-full bg-steel-800 text-indusOrange-500 font-extrabold text-sm flex items-center justify-center mx-auto mb-3 border border-steel-700">4</div>
+                    <h4 class="text-sm font-bold text-white mb-1">Sản Xuất Đạt Chuẩn ISO</h4>
+                    <p class="text-[11px] text-slate-400">Tiến hành sản xuất hàng loạt 24/7 với sự kiểm soát PQC chặt chẽ.</p>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="bg-steel-900 rounded-xl p-5 border border-steel-800 text-center relative">
+                    <div class="w-10 h-10 rounded-full bg-emerald-600 text-white font-extrabold text-sm flex items-center justify-center mx-auto mb-3 shadow">5</div>
+                    <h4 class="text-sm font-bold text-white mb-1">Giao Hàng & Bảo Hành</h4>
+                    <p class="text-[11px] text-slate-400">Đóng gói chuẩn xuất khẩu, giao tận nơi kèm chứng thư QC và hóa đơn B2B.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 6: BIỂU MẪU GỬI YÊU CẦU BÁO GIÁ / BẢN VẼ KỸ THUẬT (RFQ) -->
+    <section id="rfq" class="py-20 bg-steel-900 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                
+                <!-- Left Side Info & Estimator Simulator -->
+                <div class="lg:col-span-5 space-y-6">
+                    <div>
+                        <span class="text-xs font-bold text-indusOrange-500 uppercase tracking-widest">GỬI YÊU CẦU TRỰC TUYẾN</span>
+                        <h2 class="text-3xl font-extrabold text-white mt-1">Yêu Cầu Báo Giá & Tải Bản Vẽ (RFQ)</h2>
+                        <p class="text-slate-300 text-sm mt-3 leading-relaxed">
+                            Vui lòng tải lên file thiết kế (STEP, IGES, DXF, DWG, PDF) để bộ phận Kỹ thuật phân tích tính khả thi DFM và phản hồi bảng báo giá chi tiết trong vòng 2 - 4 giờ làm việc.
+                        </p>
+                    </div>
+
+                    <!-- Instant Estimator Widget (Interactive Tool) -->
+                    <div class="bg-steel-950 p-6 rounded-2xl border border-steel-800 space-y-4">
+                        <div class="flex items-center justify-between border-b border-steel-800 pb-3">
+                            <span class="text-sm font-bold text-white"><i class="fa-solid fa-calculator text-techBlue-500 mr-2"></i> Trắc Nghiệm Ước Tính Tiến Độ RFQ</span>
+                            <span class="text-[10px] bg-techBlue-500/20 text-techBlue-400 px-2 py-0.5 rounded font-mono">BETA</span>
+                        </div>
+
+                        <div class="space-y-3 text-xs">
+                            <div>
+                                <label class="text-slate-400 block mb-1">Loại hình gia công chính:</label>
+                                <select id="estService" onchange="calculateEstimate()" class="w-full bg-steel-900 border border-steel-700 rounded-lg p-2.5 text-slate-200 focus:outline-none focus:border-indusOrange-500">
+                                    <option value="sheet">Kim loại tấm (Cắt laser / Chấn CNC)</option>
+                                    <option value="milling">Phay CNC 3-5 trục</option>
+                                    <option value="turning">Tiện CNC phức tạp</option>
+                                    <option value="jig">Đồ gá JIG & Cụm máy</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label class="text-slate-400 block mb-1">Số lượng dự kiến (Chi tiết):</label>
+                                <input type="number" id="estQty" value="100" min="1" oninput="calculateEstimate()" class="w-full bg-steel-900 border border-steel-700 rounded-lg p-2.5 text-slate-200 focus:outline-none focus:border-indusOrange-500">
+                            </div>
+
+                            <div class="p-3 bg-steel-900 rounded-lg border border-steel-800 text-slate-300 space-y-1">
+                                <div class="flex justify-between">
+                                    <span>Thời gian báo giá dự kiến:</span>
+                                    <span id="estQuoteTime" class="font-bold text-indusOrange-500">2 - 4 Giờ</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>Thời gian làm mẫu (Prototype):</span>
+                                    <span id="estProtoTime" class="font-bold text-white">2 - 3 Ngày</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-steel-950 border border-steel-800 flex items-center space-x-4">
+                        <div class="w-10 h-10 rounded-full bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl shrink-0">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+                        <div class="text-xs">
+                            <div class="font-bold text-white">Cam kết Bảo mật Thông tin NDA</div>
+                            <div class="text-slate-400">Chúng tôi sẵn sàng ký thỏa thuận bảo mật NDA trước khi tiếp nhận bản vẽ kỹ thuật.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side Interactive RFQ Form -->
+                <div class="lg:col-span-7">
+                    <form id="rfqForm" onsubmit="handleRFQSubmit(event)" class="bg-steel-950 p-8 rounded-2xl border border-steel-800 shadow-2xl space-y-6">
+                        <div class="border-b border-steel-800 pb-4">
+                            <h3 class="text-lg font-bold text-white">PHIẾU YÊU CẦU BÁO GIÁ SẢN XUẤT</h3>
+                            <p class="text-xs text-slate-400">Các trường đánh dấu (*) là bắt buộc</p>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 mb-1.5">Họ & Tên người liên hệ *</label>
+                                <input type="text" required placeholder="Nguyễn Văn A" class="w-full bg-steel-900 border border-steel-700 rounded-lg px-3.5 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-indusOrange-500">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 mb-1.5">Tên Công Ty / Tập Đoàn *</label>
+                                <input type="text" required placeholder="Công ty TNHH Sản Xuất..." class="w-full bg-steel-900 border border-steel-700 rounded-lg px-3.5 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-indusOrange-500">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 mb-1.5">Email Doanh Nghiệp (B2B) *</label>
+                                <input type="email" required placeholder="contact@company.com" class="w-full bg-steel-900 border border-steel-700 rounded-lg px-3.5 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-indusOrange-500">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 mb-1.5">Số Điện Thoại / Zalo *</label>
+                                <input type="tel" required placeholder="0988 xxx xxx" class="w-full bg-steel-900 border border-steel-700 rounded-lg px-3.5 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-indusOrange-500">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 mb-1.5">Vật liệu yêu cầu</label>
+                                <select class="w-full bg-steel-900 border border-steel-700 rounded-lg px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-indusOrange-500">
+                                    <option>Inox (SUS304 / SUS316 / SUS430)</option>
+                                    <option>Nhôm hợp kim (A6061 / A7075 / A5052)</option>
+                                    <option>Thép Carbon (S45C / SS400 / SKD11)</option>
+                                    <option>Đồng (Đồng đỏ / Đồng thau C3604)</option>
+                                    <option>Nhựa kỹ thuật (POM / PEEK / MC Nylon)</option>
+                                    <option>Vật liệu khác (Ghi rõ ở ghi chú)</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 mb-1.5">Xử lý bề mặt</label>
+                                <select class="w-full bg-steel-900 border border-steel-700 rounded-lg px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-indusOrange-500">
+                                    <option>Sơn tĩnh điện (Powder Coating)</option>
+                                    <option>Anode hóa nhôm (Anodizing / Hard Anodize)</option>
+                                    <option>Xi mạ Kẽm / Xi mạ Niken</option>
+                                    <option>Đánh bóng HL / Mirror Stainless</option>
+                                    <option>Không xử lý (Để nguyên phôi)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Drag & Drop File Simulation -->
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 mb-1.5">Tải lên Bản vẽ kỹ thuật (STEP, IGES, DXF, DWG, PDF, ZIP) *</label>
+                            <div id="dropZone" onclick="document.getElementById('fileInput').click()" class="border-2 border-dashed border-steel-700 hover:border-indusOrange-500 rounded-xl p-6 text-center bg-steel-900/50 cursor-pointer transition">
+                                <i class="fa-solid fa-cloud-arrow-up text-3xl text-indusOrange-500 mb-2"></i>
+                                <div class="text-sm font-semibold text-white">Kéo thả bản vẽ vào đây hoặc <span class="text-indusOrange-500 underline">Chọn tệp</span></div>
+                                <div class="text-[11px] text-slate-400 mt-1">Hỗ trợ các file CAD 3D/2D up to 50MB</div>
+                                <input type="file" id="fileInput" class="hidden" multiple onchange="handleFileSelect(event)">
+                            </div>
+                            <div id="fileList" class="mt-3 space-y-2"></div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 mb-1.5">Ghi chú kỹ thuật / Dung sai / Tiến độ mong muốn</label>
+                            <textarea rows="3" placeholder="Ví dụ: Cần gia công 500 sản phẩm trong 7 ngày, yêu cầu dung sai phay ±0.01mm..." class="w-full bg-steel-900 border border-steel-700 rounded-lg p-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-indusOrange-500"></textarea>
+                        </div>
+
+                        <div class="flex items-center space-x-2">
+                            <input type="checkbox" id="ndaCheck" class="w-4 h-4 text-indusOrange-600 bg-steel-900 border-steel-700 rounded focus:ring-indusOrange-500">
+                            <label for="ndaCheck" class="text-xs text-slate-300">Yêu cầu ký Hợp đồng Bảo mật NDA trước khi mở bản vẽ.</label>
+                        </div>
+
+                        <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-indusOrange-600 to-indusOrange-500 hover:from-indusOrange-500 hover:to-indusOrange-600 text-white font-bold text-base shadow-lg orange-glow transition">
+                            <i class="fa-solid fa-paper-plane mr-2"></i> Gửi Bản Vẽ & Nhận Báo Giá Ngay
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 7: ĐỐI TÁC KHÁCH HÀNG & DỰ ÁN TIÊU BIỂU -->
+    <section class="py-16 bg-steel-950 border-b border-steel-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <span class="text-xs font-bold text-slate-400 uppercase tracking-widest">ĐỐI TÁC KHÁCH HÀNG TIN TƯỞNG</span>
+            </div>
+            
+            <!-- Logo Grid Showcase -->
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-6 items-center opacity-75 grayscale hover:grayscale-0 transition duration-500">
+                <div class="p-4 bg-steel-900 rounded-xl border border-steel-800 text-center font-bold text-slate-300 tracking-wider">
+                    <i class="fa-solid fa-car text-xl mr-2 text-indusOrange-500"></i> TOYOTA FDI
+                </div>
+                <div class="p-4 bg-steel-900 rounded-xl border border-steel-800 text-center font-bold text-slate-300 tracking-wider">
+                    <i class="fa-solid fa-microchip text-xl mr-2 text-techBlue-500"></i> SAMSUNG ELEC
+                </div>
+                <div class="p-4 bg-steel-900 rounded-xl border border-steel-800 text-center font-bold text-slate-300 tracking-wider">
+                    <i class="fa-solid fa-fan text-xl mr-2 text-emerald-400"></i> DAIKIN JAPAN
+                </div>
+                <div class="p-4 bg-steel-900 rounded-xl border border-steel-800 text-center font-bold text-slate-300 tracking-wider">
+                    <i class="fa-solid fa-bolt text-xl mr-2 text-amber-400"></i> SCHNEIDER
+                </div>
+                <div class="p-4 bg-steel-900 rounded-xl border border-steel-800 text-center font-bold text-slate-300 tracking-wider col-span-2 md:col-span-1">
+                    <i class="fa-solid fa-plane text-xl mr-2 text-purple-400"></i> NIDEC CORP
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="bg-steel-950 text-slate-400 py-16 border-t border-steel-800 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-10">
+            <!-- Col 1 -->
+            <div class="space-y-4 md:col-span-1">
+                <div class="flex items-center space-x-3">
+                    <div class="w-9 h-9 bg-indusOrange-600 rounded-lg flex items-center justify-center text-white font-extrabold text-lg">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <span class="text-lg font-black tracking-wider text-white">VIỆT PHÁT <span class="text-indusOrange-500">PRECISION</span></span>
+                </div>
+                <p class="text-xs text-slate-400 leading-relaxed">
+                    Công ty Cổ phần Cơ Khí Chính Xác & Chế Tạo Máy Việt Phát. Chuyên nghiệp gia công B2B tiêu chuẩn quốc tế.
+                </p>
+                <div class="text-xs text-slate-400 space-y-1">
+                    <div>Mã số thuế: 0314889988</div>
+                    <div>Giấy phép ISO: ISO 9001:2015 / SGS</div>
+                </div>
+            </div>
+
+            <!-- Col 2 -->
+            <div class="space-y-3">
+                <h4 class="text-white font-bold text-sm uppercase tracking-wider">Dịch Vụ Năng Lực</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="#services" class="hover:text-indusOrange-500 transition">Gia công Kim Loại Tấm CNC</a></li>
+                    <li><a href="#services" class="hover:text-indusOrange-500 transition">Phay CNC 3-5 Trục Chính Xác</a></li>
+                    <li><a href="#services" class="hover:text-indusOrange-500 transition">Tiện CNC Linh Kiện Tự Động Hóa</a></li>
+                    <li><a href="#services" class="hover:text-indusOrange-500 transition">Thiết Kế & Gia Công Đồ Gá JIG</a></li>
+                    <li><a href="#services" class="hover:text-indusOrange-500 transition">Hàn Robot & Sơn Tĩnh Điện</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 3 -->
+            <div class="space-y-3">
+                <h4 class="text-white font-bold text-sm uppercase tracking-wider">Hệ Thống Nhà Xưởng</h4>
+                <div class="text-xs space-y-2">
+                    <div>
+                        <strong class="text-slate-200 block">Nhà máy 1 (Kim loại tấm & Laser):</strong>
+                        Lô C12, Đường số 3, KCN Công Nghệ Cao, TP. Thủ Đức, TP. Hồ Chí Minh
+                    </div>
+                    <div>
+                        <strong class="text-slate-200 block">Nhà máy 2 (CNC Machining & JIG):</strong>
+                        Đường Số 5, KCN Tiên Sơn, Tỉnh Bắc Ninh
+                    </div>
+                </div>
+            </div>
+
+            <!-- Col 4 -->
+            <div class="space-y-3">
+                <h4 class="text-white font-bold text-sm uppercase tracking-wider">Phòng Kinh Doanh B2B</h4>
+                <div class="text-xs space-y-2">
+                    <p class="flex items-center"><i class="fa-solid fa-phone text-indusOrange-500 mr-2"></i> (028) 3888 9999 / 0988 123 456</p>
+                    <p class="flex items-center"><i class="fa-solid fa-envelope text-techBlue-500 mr-2"></i> rfq@vietphatprecision.com</p>
+                    <p class="flex items-center"><i class="fa-solid fa-clock text-slate-400 mr-2"></i> Thứ 2 - Thứ 7: 07:30 - 17:30 (Xưởng 24/7)</p>
+                </div>
+                <div class="pt-2">
+                    <button onclick="downloadProfileModal()" class="w-full py-2 bg-steel-900 hover:bg-steel-800 border border-steel-700 text-slate-200 text-xs font-semibold rounded-lg transition">
+                        <i class="fa-solid fa-download mr-1.5 text-indusOrange-500"></i> Download Company Profile PDF
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-6 border-t border-steel-900 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500">
+            <div>© 2026 VIỆT PHÁT PRECISION CO., LTD. All rights reserved.</div>
+            <div class="mt-2 sm:mt-0 space-x-4">
+                <a href="#" class="hover:text-slate-400">Chính sách bảo mật NDA</a>
+                <a href="#" class="hover:text-slate-400">Điều khoản báo giá</a>
+                <a href="#" class="hover:text-slate-400">Sơ đồ trang</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SUCCESS NOTIFICATION MODAL -->
+    <div id="successModal" class="fixed inset-0 z-50 bg-black/75 backdrop-blur-sm hidden flex items-center justify-center p-4">
+        <div class="bg-steel-900 border border-steel-700 rounded-2xl p-6 max-w-md w-full text-center space-y-4 shadow-2xl">
+            <div class="w-16 h-16 bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 rounded-full flex items-center justify-center text-3xl mx-auto">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white">Gửi Yêu Cầu Báo Giá Thành Công!</h3>
+            <p class="text-xs text-slate-300 leading-relaxed">
+                Cảm ơn Quý doanh nghiệp đã gửi thông tin. Đội ngũ Kỹ sư DFM của Việt Phát Precision sẽ kiểm tra bản vẽ và gửi lại bảng báo giá chi tiết qua email trong vòng 2 - 4 giờ làm việc.
+            </p>
+            <div class="p-3 bg-steel-950 rounded-lg text-left text-xs font-mono text-slate-400">
+                <div>Mã hồ sơ RFQ: <span class="text-indusOrange-500 font-bold" id="rfqTicketCode">#RFQ-88921</span></div>
+                <div>Thời gian tiếp nhận: <span class="text-white" id="rfqTime">--:--</span></div>
+            </div>
+            <button onclick="closeModal('successModal')" class="w-full py-3 bg-indusOrange-600 hover:bg-indusOrange-500 text-white font-bold rounded-xl text-sm transition">
+                Đóng thông báo
+            </button>
+        </div>
+    </div>
+
+    <!-- PROFILE PDF DOWNLOAD MODAL -->
+    <div id="pdfModal" class="fixed inset-0 z-50 bg-black/75 backdrop-blur-sm hidden flex items-center justify-center p-4">
+        <div class="bg-steel-900 border border-steel-700 rounded-2xl p-6 max-w-md w-full text-center space-y-4 shadow-2xl">
+            <div class="w-16 h-16 bg-techBlue-500/10 text-techBlue-400 border border-techBlue-500/30 rounded-full flex items-center justify-center text-3xl mx-auto">
+                <i class="fa-solid fa-file-pdf"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white">Tải Profile Năng Lực Doanh Nghiệp</h3>
+            <p class="text-xs text-slate-300">
+                Hồ sơ năng lực (Capacity Profile 2026) bao gồm danh mục máy móc chi tiết, chứng chỉ ISO 9001:2015 và các dự án FDI tiêu biểu.
+            </p>
+            <div class="pt-2">
+                <button onclick="simulatePdfDownload()" class="w-full py-3 bg-gradient-to-r from-techBlue-600 to-techBlue-500 text-white font-bold rounded-xl text-sm transition">
+                    <i class="fa-solid fa-download mr-2"></i> Tải Về Profile (PDF - 12.5MB)
+                </button>
+            </div>
+            <button onclick="closeModal('pdfModal')" class="text-xs text-slate-400 hover:text-white pt-2">
+                Để sau
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Machinery Tab Filtering
+        function filterMachinery(category) {
+            const tabs = document.querySelectorAll('.machinery-tab');
+            tabs.forEach(tab => {
+                if(tab.getAttribute('data-tab') === category) {
+                    tab.classList.remove('bg-steel-800', 'text-slate-300');
+                    tab.classList.add('bg-indusOrange-600', 'text-white');
+                } else {
+                    tab.classList.remove('bg-indusOrange-600', 'text-white');
+                    tab.classList.add('bg-steel-800', 'text-slate-300');
+                }
+            });
+
+            const items = document.querySelectorAll('.machine-item');
+            items.forEach(item => {
+                if(category === 'all' || item.classList.contains(category)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        // RFQ Estimator Simulator
+        function calculateEstimate() {
+            const service = document.getElementById('estService').value;
+            const qty = parseInt(document.getElementById('estQty').value) || 1;
+            
+            let quoteTime = "2 - 4 Giờ";
+            let protoTime = "2 - 3 Ngày";
+
+            if (qty > 5000) {
+                quoteTime = "4 - 8 Giờ (Khối lượng lớn)";
+                protoTime = "5 - 7 Ngày";
+            } else if (service === 'jig') {
+                quoteTime = "3 - 6 Giờ (Khảo sát CAD 3D)";
+                protoTime = "4 - 5 Ngày";
+            }
+
+            document.getElementById('estQuoteTime').innerText = quoteTime;
+            document.getElementById('estProtoTime').innerText = protoTime;
+        }
+
+        // File Selection handling simulation
+        let selectedFiles = [];
+        function handleFileSelect(event) {
+            const files = event.target.files;
+            const fileList = document.getElementById('fileList');
+            fileList.innerHTML = '';
+
+            for(let i = 0; i < files.length; i++) {
+                const file = files[i];
+                const fileItem = document.createElement('div');
+                fileItem.className = 'p-2.5 bg-steel-900 border border-steel-700 rounded-lg flex items-center justify-between text-xs text-slate-200';
+                fileItem.innerHTML = `
+                    <div class="flex items-center space-x-2 truncate">
+                        <i class="fa-solid fa-file-lines text-indusOrange-500"></i>
+                        <span class="truncate font-semibold">${file.name}</span>
+                        <span class="text-[10px] text-slate-400">(${(file.size / (1024*1024)).toFixed(2)} MB)</span>
+                    </div>
+                    <span class="text-emerald-400 font-bold"><i class="fa-solid fa-check"></i> Sẵn sàng</span>
+                `;
+                fileList.appendChild(fileItem);
+            }
+        }
+
+        // Handle RFQ Submit
+        function handleRFQSubmit(event) {
+            event.preventDefault();
+            
+            // Generate dynamic ticket code
+            const ticketCode = '#RFQ-' + Math.floor(10000 + Math.random() * 90000);
+            const now = new Date();
+            const timeStr = now.getHours().toString().padStart(2, '0') + ':' + now.getMinutes().toString().padStart(2, '0') + ' - ' + now.toLocaleDateString('vi-VN');
+
+            document.getElementById('rfqTicketCode').innerText = ticketCode;
+            document.getElementById('rfqTime').innerText = timeStr;
+
+            // Show success modal
+            document.getElementById('successModal').classList.remove('hidden');
+        }
+
+        function downloadProfileModal() {
+            document.getElementById('pdfModal').classList.remove('hidden');
+        }
+
+        function simulatePdfDownload() {
+            closeModal('pdfModal');
+            // Create temporary mock download
+            const blob = new Blob(["Viet Phat Precision Company Profile 2026 - Manufacturing Capacity, ISO Certifications & Machinery Spec Sheet."], { type: "text/plain" });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = "VietPhat_Precision_Capacity_Profile_2026.pdf";
+            link.click();
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).classList.add('hidden');
+        }
+    </script>
+</body>
+</html>
